@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+client/node_modules/
+client/dist/
+
+# OS files
+.DS_Store
+**/.DS_Store
+Thumbs.db
+
+# Database
+*.db
+*.db-shm
+*.db-wal
+vc_messenger.db
+
+# Uploads and Archives
+uploads/*
+!uploads/.gitkeep
+*.zip
+*.tar.gz
+
+# External & Nested Repositories
+VC/
+CampusConnect_Project_Report*.pdf
